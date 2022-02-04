@@ -22,7 +22,7 @@ def check_args(program_name, argv):
         if opt in ["-h", "--help"]:
             print(f'{program_name} -t <tag> [-e <extension>] [-d <directory>] [-o <output>]')
             print('-t --tag         Tag name to retrieve, separate with a comma to put multiple file extensions')
-            print('-e --extension   File extension to analyze, separate with a comma to put multiple file extensions')
+            print('-e --extension   File extension to analyze, separate with a comma to put multiple file extensions, by default html')
             print('-d --directory   Directory to analyze, by default files_to_analyze')
             print('-o --output      Output file name, by default results')
 
